@@ -1,0 +1,15 @@
+.places__website {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+}
+
+/* 320 */
+@media screen and (max-width: 622px) {
+  .places__website {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 16px;
+    align-self: auto;
+  }
+}

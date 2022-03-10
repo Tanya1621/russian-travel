@@ -1,0 +1,13 @@
+.places__text {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  /* 320 */
+  @media screen and (max-width: 622px) {
+    .places__text {
+      grid-column: 1;
+      grid-row: 4;
+    }
+  }
+  

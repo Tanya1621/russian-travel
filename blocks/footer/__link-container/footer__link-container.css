@@ -1,0 +1,22 @@
+.footer__link-container {
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 713px) {
+  .footer__link-container {
+    margin-right: 0;
+    margin-bottom: 32px;
+    margin-left: 16px;
+  }
+}
+
+.footer__link-container:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 713px) {
+  .footer__link-container:last-of-type {
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+}

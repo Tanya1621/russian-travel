@@ -4,4 +4,4 @@ _Описание_: однотраничный сайт, содержащий и
 
 _Технологии_: grid-layout, flex-box, BEM
 
-**Cсылка на GitHub pages**:
+**Cсылка на GitHub pages**: https://tanya1621.github.io/russian-travel/

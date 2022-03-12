@@ -1,4 +1,4 @@
-.footer {
+.footer__nav {
     width: calc(100% - 96px);
     max-width: 1184px;
     margin: 92px auto 24px;
@@ -7,15 +7,10 @@
     justify-content: space-between;
   }
   
-  /* 1024 */
-  @media screen and (max-width: 1024px) {
-    .footer {
-    }
-  }
   
   /* 768 */
   @media screen and (max-width: 768px) {
-    .footer {
+    .footer__nav {
       width: calc(100% - 48px);
       margin: 88px auto 24px;
     }
@@ -23,10 +18,10 @@
   
   
   @media screen and (max-width: 713px) {
-    .footer {
+    .footer__nav {
       flex-direction: column;
       width: 100%;
-      margin: 64px 0 0 16px;
+      margin: 64px 0 0;
   
     }
   }

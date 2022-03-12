@@ -3,6 +3,8 @@
   line-height: 18px;
   text-decoration: none;
   color: white;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__link:hover {

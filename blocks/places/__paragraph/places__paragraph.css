@@ -1,6 +1,7 @@
 .places__paragraph {
   margin: 0;
   padding: 0;
+  font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
 }
@@ -16,12 +17,10 @@
 /* 320 */
 @media screen and (max-width: 622px) {
   .places__paragraph {
-    font-size: 16px;
-    line-height: 26.08px;
     margin: 0 16px;
   }
 }
 
-.places__paragraph:first-of-type {
+.places__paragraph:not(:last-of-type) {
   margin-bottom: 26px;
 }
